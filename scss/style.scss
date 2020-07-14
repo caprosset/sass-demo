@@ -3,6 +3,7 @@ $secondary-color: #fff;
 
 @mixin link-style($color) {
   color: $color;
+  text-decoration: none;
   &:hover {
     font-weight: bold;
   }
@@ -12,7 +13,6 @@ $secondary-color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
 
