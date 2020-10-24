@@ -1,0 +1,7 @@
+@mixin link-style($color, $font) {
+  color: $color;
+  text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
+}

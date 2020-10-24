@@ -2,16 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open-sans', sans-serif;
 }
 
 body {
-  background: #2EC5FA;
+  background-color: #2ec5fa;
 }
 
-.container {
-  max-width: 350px;
-  width: 100%;
+body .container {
+  width: 350px;
   height: auto;
   background-color: #fff;
   padding: 60px 45px;
@@ -22,74 +21,73 @@ body {
   border-radius: 20px;
 }
 
-.container h2, .container h3 {
+body .container h2, body .container h3 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 26px;
-  font-weight: bold;
-  color: #2EC5FA;
+  font-weight: 700;
+  color: #2ec5fa;
 }
 
-.container h3 {
-  color: #000;
+body .container h3 {
   font-size: 16px;
+  color: #000;
 }
 
-.container .form-wrapper .input_field {
-  position: relative;
+body .container .form-wrapper .input_field {
   margin-bottom: 10px;
+  position: relative;
 }
 
-.container .form-wrapper .input_field .input {
+body .container .form-wrapper .input_field input {
   width: 100%;
   padding: 12px 0 12px 30px;
-  padding-left: 30px;
   border: none;
-  background: #eeeeee;
+  background: #eee;
 }
 
-.container .form-wrapper .input_field i {
+body .container .form-wrapper .input_field i {
   position: absolute;
-  top: 14px;
+  top: 12px;
   left: 10px;
   font-size: 14px;
   color: #1d2120;
 }
 
-.container .form-wrapper .button {
+body .container .form-wrapper .button {
+  text-align: center;
+  background-color: #2ec5fa;
   width: 70%;
   margin: 20px auto 0;
-  background: #2EC5FA;
-  text-align: center;
   padding: 12px;
   border-radius: 25px;
   opacity: 0.6;
-  transition: 0.3s;
 }
 
-.container .form-wrapper .button:hover {
+body .container .form-wrapper .button:hover {
   opacity: 1;
+  transition: 1.5s;
 }
 
-.container .form-wrapper a {
+body .container .form-wrapper .button a {
   color: #fff;
   text-decoration: none;
 }
 
-.container .form-wrapper a:hover {
+body .container .form-wrapper .button a:hover {
   font-weight: bold;
 }
 
-.container .form-wrapper .message-container {
+body .container .form-wrapper .message-container {
+  margin: 20px 0;
   text-align: center;
-  margin: 10px;
 }
 
-.container .form-wrapper .message-container a {
-  color: #2EC5FA;
+body .container .form-wrapper .message-container a {
+  color: #2ec5fa;
   text-decoration: none;
 }
 
-.container .form-wrapper .message-container a:hover {
+body .container .form-wrapper .message-container a:hover {
   font-weight: bold;
 }
