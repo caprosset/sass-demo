@@ -22,3 +22,23 @@ Find the slides [here](https://docs.google.com/presentation/d/1Rma9AUsuwSWOzHzDw
 └── css
     └── style.css
 ```
+
+### Settings.json
+
+In VS Code, open the file settings.json with `Ctrl (or Cmd) + shift + P`    
+and select "Preferences: Open Settings (JSON)"
+
+Add the following lines:
+
+```json
+  "liveSassCompile.settings.autoprefix": [],
+   "liveSassCompile.settings.formats": [
+       {
+           "format": "expanded",
+           "extensionName": ".css",
+           "savePath": "/css"
+       }
+   ],
+   "liveSassCompile.settings.generateMap": false,
+   "liveServer.settings.donotVerifyTags": true
+```
